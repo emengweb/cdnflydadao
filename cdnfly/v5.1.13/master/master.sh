@@ -177,7 +177,7 @@ need_sys() {
 
 install_depend
 need_sys
-sync_time
+#sync_time
 
 # 解析命令行参数
 TEMP=`getopt -o h --long help,ver:,no-mysql,only-mysql,no-es,only-es,master-ip:,es-ip:,es-dir:,es-pwd:,mysql-ip:,ignore-ntp -- "$@"`
